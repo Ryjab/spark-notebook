@@ -161,4 +161,17 @@ require([
     utils.load_extensions_from_config(common_config);
     notebook.load_notebook(common_options.notebook_path);
 
+    function send_data(data){
+    	//
+    }	
+
+    $(document).on('mouseover', function(e)
+    {
+    	if (e.target.className == 'cm-variable' || e.target.className == 'cm-keyword')
+    		{
+    				console.log("ok");
+    				send_data(e.target.text);
+    		}
+    });
+
 });
