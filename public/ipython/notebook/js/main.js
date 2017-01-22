@@ -164,14 +164,27 @@ require([
     function send_data(data, type){
     	//
     }	
-
+/*
     $(document).on('mouseover', function(e)
     {
     	if (e.target.className == 'cm-variable' || e.target.className == 'cm-keyword')
     		{
-    				console.log("ok");
+    				console.log("ok")
     				send_data(e.target.text, e.target.className);
+                      
     		}
     });
+    */
+    $(document).on("mouseenter mouseleave","s,function(e){
+    var $this = $(this);
+    if (e.type === 'mouseenter') {
+       clearTimeout( $this.data('timeout') );
+       $this.slideDown('fast');
+    }else{ // is mouseleave:
+       $this.data( 'timeout', setTimeout(function(){
+           $this.slideUp('fast');
+       },2000) );  
+   }
+ });
 
 });
