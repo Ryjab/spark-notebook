@@ -1,0 +1,717 @@
+AbstractFunction0.scala
+AbstractFunction1.scala
+AbstractFunction10.scala
+AbstractFunction11.scala
+AbstractFunction12.scala
+AbstractFunction13.scala
+AbstractFunction14.scala
+AbstractFunction15.scala
+AbstractFunction16.scala
+AbstractFunction17.scala
+AbstractFunction18.scala
+AbstractFunction19.scala
+AbstractFunction2.scala
+AbstractFunction20.scala
+AbstractFunction21.scala
+AbstractFunction22.scala
+AbstractFunction3.scala
+AbstractFunction4.scala
+AbstractFunction5.scala
+AbstractFunction6.scala
+AbstractFunction7.scala
+AbstractFunction8.scala
+AbstractFunction9.scala
+AbstractPartialFunction.scala
+Annotation.scala
+AnsiColor.scala
+AnyRefMap.scala
+AnyVal.scala
+AnyValCompanion.scala
+App.scala
+Array.scala
+ArrayBuffer.scala
+ArrayBuilder.scala
+ArrayLike.scala
+ArrayOps.scala
+ArraySeq.scala
+ArrayStack.scala
+AsJavaConverters.scala
+AsScalaConverters.scala
+Awaitable.scala
+BasicIO.scala
+BasicNode.java
+BatchingExecutor.scala
+BeanDescription.scala
+BeanDisplayName.scala
+beanGetter.scala
+BeanInfo.scala
+BeanInfoSkip.scala
+BeanProperty.scala
+beanSetter.scala
+BigDecimal.scala
+BigInt.scala
+BitOperations.scala
+BitSet (2).scala
+BitSet (3).scala
+BitSet.scala
+BitSetFactory.scala
+BitSetLike.scala
+BlockContext.scala
+Boolean.scala
+BooleanBeanProperty.scala
+BooleanProp.scala
+BooleanRef.java
+BoxedUnit.java
+BoxesRunTime.java
+Breaks.scala
+bridge.scala
+Buffer.scala
+BufferedIterator.scala
+BufferedSource.scala
+BufferLike.scala
+BufferProxy.scala
+Builder.scala
+Byte.scala
+ByteRef.java
+ByteswapHashing.scala
+CanBuildFrom.scala
+CanCombineFrom.scala
+Channel.scala
+Char.scala
+CharRef.java
+ClassfileAnnotation.scala
+ClassManifestDeprecatedApis.scala
+ClassTag.scala
+ClassTagTraversableFactory.scala
+Clearable.scala
+Cloneable (2).scala
+Cloneable.scala
+CNodeBase.java
+Codec.scala
+Combiner (2).scala
+Combiner.scala
+companionClass.scala
+companionMethod.scala
+companionObject.scala
+compileTimeOnly.scala
+Console.scala
+ControlThrowable.scala
+CustomParallelizable.scala
+Deadline.scala
+DecorateAsJava.scala
+DecorateAsScala.scala
+Decorators.scala
+DefaultEntry.scala
+DefaultMap (2).scala
+DefaultMap.scala
+DefaultMapModel.scala
+DelayedInit.scala
+DelayedLazyVal.scala
+deprecated.scala
+deprecatedInheritance.scala
+deprecatedName.scala
+deprecatedOverriding.scala
+Document.scala
+Double.scala
+DoubleLinkedList.scala
+DoubleLinkedListLike.scala
+DoubleRef.java
+Duration.scala
+DurationConversions.scala
+Dynamic.scala
+DynamicVariable.scala
+Either.scala
+elidable.scala
+Enumeration.scala
+Equals.scala
+Equiv.scala
+Exception.scala
+ExecutionContext.scala
+ExecutionContextImpl.scala
+field.scala
+FilterMonadic.scala
+FlatHashTable.scala
+Float.scala
+FloatRef.java
+Fractional.scala
+Function.scala
+Function0.scala
+Function1.scala
+Function10.scala
+Function11.scala
+Function12.scala
+Function13.scala
+Function14.scala
+Function15.scala
+Function16.scala
+Function17.scala
+Function18.scala
+Function19.scala
+Function2.scala
+Function20.scala
+Function21.scala
+Function22.scala
+Function3.scala
+Function4.scala
+Function5.scala
+Function6.scala
+Function7.scala
+Function8.scala
+Function9.scala
+Future.scala
+Gen.java
+GenericClassTagCompanion.scala
+GenericClassTagTraversableTemplate.scala
+GenericCompanion.scala
+GenericOrderedCompanion.scala
+GenericOrderedTraversableTemplate.scala
+GenericParCompanion.scala
+GenericParTemplate.scala
+GenericSeqCompanion.scala
+GenericSetTemplate.scala
+GenericTraversableTemplate.scala
+GenIterable.scala
+GenIterableLike.scala
+GenMap.scala
+GenMapFactory.scala
+GenMapLike.scala
+GenSeq.scala
+GenSeqFactory.scala
+GenSeqLike.scala
+GenSet.scala
+GenSetFactory.scala
+GenSetLike.scala
+GenTraversable.scala
+GenTraversableFactory.scala
+GenTraversableLike.scala
+GenTraversableOnce.scala
+getter.scala
+Growable.scala
+GrowingBuilder.scala
+HashEntry.scala
+Hashing.scala
+HashMap (2).scala
+HashMap.scala
+HashSet (2).scala
+HashSet.scala
+HashTable.scala
+HasNewBuilder.scala
+HasNewCombiner.scala
+History.scala
+Immutable.scala
+ImmutableMapAdaptor.scala
+ImmutableMapFactory.scala
+ImmutableSetAdaptor.scala
+ImmutableSetFactory.scala
+ImmutableSortedMapFactory.scala
+ImmutableSortedSetFactory.scala
+implicitAmbiguous.scala
+ImplicitConversions.scala
+implicitNotFound.scala
+IndexedSeq (2).scala
+IndexedSeq (3).scala
+IndexedSeq.scala
+IndexedSeqFactory.scala
+IndexedSeqLike (2).scala
+IndexedSeqLike.scala
+IndexedSeqOptimized (2).scala
+IndexedSeqOptimized.scala
+IndexedSeqView.scala
+inline.scala
+INodeBase.java
+Int.scala
+Integral.scala
+IntMap.scala
+IntRef.java
+IsSeqLike.scala
+IsTraversableLike.scala
+IsTraversableOnce.scala
+Iterable (2).scala
+Iterable (3).scala
+Iterable.scala
+IterableForwarder.scala
+IterableLike.scala
+IterableProxy.scala
+IterableProxyLike.scala
+IterableView.scala
+IterableViewLike.scala
+Iterator.scala
+JavaConversions (2).scala
+JavaConversions.scala
+JavaConverters.scala
+JFunction0$mcB$sp.java
+JFunction0$mcC$sp.java
+JFunction0$mcD$sp.java
+JFunction0$mcF$sp.java
+JFunction0$mcI$sp.java
+JFunction0$mcJ$sp.java
+JFunction0$mcS$sp.java
+JFunction0$mcV$sp.java
+JFunction0$mcZ$sp.java
+JFunction1$mcDD$sp.java
+JFunction1$mcDF$sp.java
+JFunction1$mcDI$sp.java
+JFunction1$mcDJ$sp.java
+JFunction1$mcFD$sp.java
+JFunction1$mcFF$sp.java
+JFunction1$mcFI$sp.java
+JFunction1$mcFJ$sp.java
+JFunction1$mcID$sp.java
+JFunction1$mcIF$sp.java
+JFunction1$mcII$sp.java
+JFunction1$mcIJ$sp.java
+JFunction1$mcJD$sp.java
+JFunction1$mcJF$sp.java
+JFunction1$mcJI$sp.java
+JFunction1$mcJJ$sp.java
+JFunction1$mcVD$sp.java
+JFunction1$mcVF$sp.java
+JFunction1$mcVI$sp.java
+JFunction1$mcVJ$sp.java
+JFunction1$mcZD$sp.java
+JFunction1$mcZF$sp.java
+JFunction1$mcZI$sp.java
+JFunction1$mcZJ$sp.java
+JFunction2$mcDDD$sp.java
+JFunction2$mcDDI$sp.java
+JFunction2$mcDDJ$sp.java
+JFunction2$mcDID$sp.java
+JFunction2$mcDII$sp.java
+JFunction2$mcDIJ$sp.java
+JFunction2$mcDJD$sp.java
+JFunction2$mcDJI$sp.java
+JFunction2$mcDJJ$sp.java
+JFunction2$mcFDD$sp.java
+JFunction2$mcFDI$sp.java
+JFunction2$mcFDJ$sp.java
+JFunction2$mcFID$sp.java
+JFunction2$mcFII$sp.java
+JFunction2$mcFIJ$sp.java
+JFunction2$mcFJD$sp.java
+JFunction2$mcFJI$sp.java
+JFunction2$mcFJJ$sp.java
+JFunction2$mcIDD$sp.java
+JFunction2$mcIDI$sp.java
+JFunction2$mcIDJ$sp.java
+JFunction2$mcIID$sp.java
+JFunction2$mcIII$sp.java
+JFunction2$mcIIJ$sp.java
+JFunction2$mcIJD$sp.java
+JFunction2$mcIJI$sp.java
+JFunction2$mcIJJ$sp.java
+JFunction2$mcJDD$sp.java
+JFunction2$mcJDI$sp.java
+JFunction2$mcJDJ$sp.java
+JFunction2$mcJID$sp.java
+JFunction2$mcJII$sp.java
+JFunction2$mcJIJ$sp.java
+JFunction2$mcJJD$sp.java
+JFunction2$mcJJI$sp.java
+JFunction2$mcJJJ$sp.java
+JFunction2$mcVDD$sp.java
+JFunction2$mcVDI$sp.java
+JFunction2$mcVDJ$sp.java
+JFunction2$mcVID$sp.java
+JFunction2$mcVII$sp.java
+JFunction2$mcVIJ$sp.java
+JFunction2$mcVJD$sp.java
+JFunction2$mcVJI$sp.java
+JFunction2$mcVJJ$sp.java
+JFunction2$mcZDD$sp.java
+JFunction2$mcZDI$sp.java
+JFunction2$mcZDJ$sp.java
+JFunction2$mcZID$sp.java
+JFunction2$mcZII$sp.java
+JFunction2$mcZIJ$sp.java
+JFunction2$mcZJD$sp.java
+JFunction2$mcZJI$sp.java
+JFunction2$mcZJJ$sp.java
+LambdaDeserialize.java
+LambdaDeserializer.scala
+language.scala
+languageFeature (2).scala
+languageFeature.scala
+LazyBuilder.scala
+LazyCombiner.scala
+LazyRef.scala
+LinearSeq (2).scala
+LinearSeq (3).scala
+LinearSeq.scala
+LinearSeqLike.scala
+LinearSeqOptimized.scala
+LinkedEntry.scala
+LinkedHashMap.scala
+LinkedHashSet.scala
+LinkedList.scala
+LinkedListLike.scala
+List.scala
+ListBuffer.scala
+ListMap (2).scala
+ListMap.scala
+ListSet.scala
+Location.scala
+Lock.scala
+Long.scala
+LongMap (2).scala
+LongMap.scala
+LongRef.java
+macroImpl.scala
+MainNode.java
+Manifest.scala
+Map (2).scala
+Map (3).scala
+Map (4).scala
+Map.scala
+MapBuilder.scala
+MapFactory.scala
+MapLike (2).scala
+MapLike (3).scala
+MapLike.scala
+MapProxy (2).scala
+MapProxy (3).scala
+MapProxy.scala
+MapProxyLike.scala
+MatchError.scala
+Message.scala
+MethodCache.scala
+migration.scala
+MultiMap.scala
+MurmurHash.scala
+MurmurHash3.scala
+Mutable.scala
+MutableList.scala
+MutableMapFactory.scala
+MutableSetFactory.scala
+MutableSortedMapFactory.scala
+MutableSortedSetFactory.scala
+NameTransformer.scala
+native.scala
+noinline.scala
+NoManifest.scala
+NonFatal.scala
+NonLocalReturnControl.scala
+NoStackTrace.scala
+Nothing$.scala
+NotImplementedError.scala
+NotNull.scala
+Null$.scala
+Numeric.scala
+NumericRange.scala
+ObjectRef.java
+ObservableBuffer.scala
+ObservableMap.scala
+ObservableSet.scala
+OpenHashMap.scala
+Option.scala
+OptManifest.scala
+Ordered.scala
+OrderedTraversableFactory.scala
+Ordering.scala
+package (10).scala
+package (11).scala
+package (12).scala
+package (13).scala
+package (14).scala
+package (15).scala
+package (16).scala
+package (17).scala
+package (2).scala
+package (3).scala
+package (4).scala
+package (5).scala
+package (6).scala
+package (7).scala
+package (8).scala
+package (9).scala
+package.scala
+PagedSeq.scala
+Parallel.scala
+Parallelizable.scala
+param.scala
+ParArray.scala
+ParFactory.scala
+ParFlatHashTable.scala
+ParHashMap (2).scala
+ParHashMap.scala
+ParHashSet (2).scala
+ParHashSet.scala
+ParHashTable.scala
+ParIterable (2).scala
+ParIterable (3).scala
+ParIterable (4).scala
+ParIterable.scala
+ParIterableLike (2).scala
+ParIterableLike.scala
+ParMap (2).scala
+ParMap (3).scala
+ParMap (4).scala
+ParMap.scala
+ParMapFactory.scala
+ParMapLike (2).scala
+ParMapLike (3).scala
+ParMapLike.scala
+ParRange.scala
+ParSeq (2).scala
+ParSeq (3).scala
+ParSeq (4).scala
+ParSeq.scala
+ParSeqLike (2).scala
+ParSeqLike.scala
+ParSet (2).scala
+ParSet (3).scala
+ParSet (4).scala
+ParSet.scala
+ParSetFactory.scala
+ParSetLike (2).scala
+ParSetLike (3).scala
+ParSetLike.scala
+PartialFunction.scala
+PartiallyOrdered.scala
+PartialOrdering.scala
+ParTrieMap.scala
+ParVector.scala
+PhantomReference.scala
+Platform.scala
+Position.scala
+PreciseSplitter (2).scala
+PreciseSplitter.scala
+Predef.scala
+PriorityQueue.scala
+Process.scala
+ProcessBuilder.scala
+ProcessBuilderImpl.scala
+ProcessImpl.scala
+ProcessIO.scala
+ProcessLogger.scala
+Product.scala
+Product1.scala
+Product10.scala
+Product11.scala
+Product12.scala
+Product13.scala
+Product14.scala
+Product15.scala
+Product16.scala
+Product17.scala
+Product18.scala
+Product19.scala
+Product2.scala
+Product20.scala
+Product21.scala
+Product22.scala
+Product3.scala
+Product4.scala
+Product5.scala
+Product6.scala
+Product7.scala
+Product8.scala
+Product9.scala
+Promise (2).scala
+Promise.scala
+Prop.scala
+Properties.scala
+PropImpl.scala
+Proxy.scala
+Publisher.scala
+Queue (2).scala
+Queue.scala
+QueueProxy.scala
+Random.scala
+Range.scala
+readme-if-you-want-to-add-something.txt
+RedBlackTree (2).scala
+RedBlackTree.scala
+Reference.scala
+ReferenceQueue.scala
+ReferenceWrapper.scala
+Regex.scala
+RemainsIterator (2).scala
+RemainsIterator.scala
+remote.scala
+ResizableArray.scala
+ResizableParArrayCombiner.scala
+Responder.scala
+ReusableBuilder.scala
+RevertibleHistory.scala
+RichBoolean.scala
+RichByte.scala
+RichChar.scala
+RichDouble.scala
+RichException.scala
+RichFloat.scala
+RichInt.scala
+RichLong.scala
+RichShort.scala
+ScalaBeanInfo.scala
+ScalaLongSignature.java
+ScalaNumber.java
+ScalaNumberProxy.scala
+ScalaNumericConversions.scala
+ScalaRunTime.scala
+ScalaSignature.java
+Scriptable.scala
+Searching.scala
+Seq (2).scala
+Seq (3).scala
+Seq.scala
+SeqCharSequence.scala
+SeqExtractors.scala
+SeqFactory.scala
+SeqForwarder.scala
+SeqLike (2).scala
+SeqLike.scala
+SeqProxy.scala
+SeqProxyLike.scala
+SeqView.scala
+SeqViewLike.scala
+Serializable.scala
+SerialVersionUID.scala
+Set (2).scala
+Set (3).scala
+Set.scala
+SetBuilder.scala
+SetFactory.scala
+SetLike (2).scala
+SetLike.scala
+SetProxy (2).scala
+SetProxy (3).scala
+SetProxy.scala
+SetProxyLike.scala
+setter.scala
+Short.scala
+ShortRef.java
+Shrinkable.scala
+ShutdownHookThread.scala
+Signalling.scala
+Sizing.scala
+SliceInterval.scala
+SoftReference.scala
+Sorted.scala
+SortedMap (2).scala
+SortedMap (3).scala
+SortedMap.scala
+SortedMapFactory.scala
+SortedMapLike.scala
+SortedSet (2).scala
+SortedSet (3).scala
+SortedSet.scala
+SortedSetFactory.scala
+SortedSetLike.scala
+Sorting.scala
+Source.scala
+Specializable.scala
+specialized.scala
+Splitter (2).scala
+Splitter.scala
+Stack (2).scala
+Stack.scala
+StackProxy.scala
+StaticAnnotation.scala
+Statics.java
+StdIn.scala
+Stream.scala
+StreamView.scala
+StreamViewLike.scala
+strictfp.scala
+StringAdd.scala
+StringBuilder.scala
+StringContext.scala
+StringFormat.scala
+StringLike.scala
+StringOps.scala
+StructuralCallSite.java
+Subscriber.scala
+Subtractable.scala
+switch.scala
+Symbol.scala
+SymbolLiteral.java
+SyncChannel.scala
+SynchronizedBuffer.scala
+SynchronizedMap.scala
+SynchronizedQueue.scala
+SynchronizedSet.scala
+SynchronizedStack.scala
+SyncVar.scala
+SystemProperties.scala
+TailCalls.scala
+tailrec.scala
+Tasks (2).scala
+Tasks.scala
+TaskSupport (2).scala
+TaskSupport.scala
+throws.scala
+TraitSetter.java
+transient.scala
+Traversable (2).scala
+Traversable (3).scala
+Traversable.scala
+TraversableFactory.scala
+TraversableForwarder.scala
+TraversableLike.scala
+TraversableOnce.scala
+TraversableProxy.scala
+TraversableProxyLike.scala
+TraversableView.scala
+TraversableViewLike.scala
+TreeMap (2).scala
+TreeMap.scala
+TreeSet (2).scala
+TreeSet.scala
+TrieIterator.scala
+TrieMap.scala
+Try.scala
+Tuple1.scala
+Tuple10.scala
+Tuple11.scala
+Tuple12.scala
+Tuple13.scala
+Tuple14.scala
+Tuple15.scala
+Tuple16.scala
+Tuple17.scala
+Tuple18.scala
+Tuple19.scala
+Tuple2.scala
+Tuple20.scala
+Tuple21.scala
+Tuple22.scala
+Tuple2Zipped.scala
+Tuple3.scala
+Tuple3Zipped.scala
+Tuple4.scala
+Tuple5.scala
+Tuple6.scala
+Tuple7.scala
+Tuple8.scala
+Tuple9.scala
+TypeConstraint.scala
+unchecked.scala
+uncheckedStable.scala
+uncheckedVariance.scala
+Undoable.scala
+UninitializedError.scala
+UninitializedFieldError.scala
+Unit.scala
+UnrolledBuffer.scala
+UnrolledParArrayCombiner.scala
+unspecialized.scala
+varargs.scala
+Vector.scala
+volatile.scala
+VolatileBooleanRef.java
+VolatileByteRef.java
+VolatileCharRef.java
+VolatileDoubleRef.java
+VolatileFloatRef.java
+VolatileIntRef.java
+VolatileLongRef.java
+VolatileObjectRef.java
+VolatileShortRef.java
+WeakHashMap.scala
+WeakReference.scala
+WrapAsJava.scala
+WrapAsScala.scala
+WrappedArray.scala
+WrappedArrayBuilder.scala
+WrappedString.scala
+Wrappers.scala
