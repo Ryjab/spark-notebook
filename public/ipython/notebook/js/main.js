@@ -161,30 +161,114 @@ require([
     utils.load_extensions_from_config(common_config);
     notebook.load_notebook(common_options.notebook_path);
 
-    function send_data(data, type){
-    	//
-    }	
-/*
-    $(document).on('mouseover', function(e)
-    {
-    	if (e.target.className == 'cm-variable' || e.target.className == 'cm-keyword')
-    		{
-    				console.log("ok")
-    				send_data(e.target.text, e.target.className);
-                      
-    		}
-    });
-    */
-    $(document).on("mouseenter mouseleave","s,function(e){
-    var $this = $(this);
+//-----------------------------------------------------------------------------------------
+    function CallServer ()     
+{     
+ this.xhr_object;     
+ this.server_response;     
+      
+ this.createXMLHTTPRequest = createXMLHTTPRequest;     
+ this.sendDataToServer = sendDataToServer;     
+ this.displayAnswer = displayAnswer;     
+ this.launch = launch;     
+}     
+
+
+//On crée l'objet XMLHttpRequest     
+
+function createXMLHTTPRequest()     
+{     
+ this.xhr_object = null;     
+      
+ if(window.XMLHttpRequest)     
+ {     
+    this.xhr_object = new XMLHttpRequest();     
+ }     
+ else if(window.ActiveXObject)      
+ {     
+    this.xhr_object = new ActiveXObject("Microsoft.XMLHTTP");     
+ }     
+ else      
+ {     
+    alert("Your browser doesn't provide XMLHttprequest functionality");     
+    return;     
+ }     
+}     
+
+//On envoit des données au serveur et on reçoit la réponse en mode synchrone dans this.server_response     
+
+function sendDataToServer (data_to_send)     
+{     
+ var xhr_object = this.xhr_object;     
+      
+ xhr_object.open("POST", "/spark-notebook/bibli.pl", false);     
+
+ xhr_object.setRequestHeader("Content-type", "application/x-www-form-urlencoded");     
+      
+ xhr_object.send(data_to_send);     
+      
+ if(xhr_object.readyState == 4)     
+ {      
+  this.server_response = xhr_object.responseText;     
+ }     
+}     
+
+//On injecte la réponse du serveur dans la div nommée resultat    
+
+function displayAnswer ()     
+{      
+ document.getElementByClassName("BoxInfo").innerHTML = this.server_response;     
+}     
+
+//Exécution du Javascript  
+
+function launch (data)     
+{     ;
+ this.sendDataToServer(data);     
+      
+ this.displayAnswer();     
+}     
+
+
+function createIframe(data,className)
+{
+ifrm = document.createElement("IFRAME");
+ifrm.setAttribute("src", data);
+ifrm.style.width = 550+"px";
+ifrm.style.height = 400+"px";
+iframe.class="BoxInfo";
+document.body.appendChild(ifrm);
+//document.getElementByClassName(className).appendChild(ifrm);
+}
+
+$(document).on('mouseover', function(e)
+{
+	if (e.target.className == 'cm-variable' || e.target.className == 'cm-keyword')
+		{
+                //récupération du mot ciblé par l'utilisateur
+                var data = e.target.text;
+                var className = e.target.className;
+                //Création de l'objet call_server    
+                var call_server = new CallServer();     
+                call_server.createXMLHTTPRequest();
+                createIframe(data,className);
+                call_server.launch(data);
+		}
+});
+
+
+    //timer a implémenter a la fin
+    /*
+    $(document).on("mouseover",function(e){
     if (e.type === 'mouseenter') {
        clearTimeout( $this.data('timeout') );
        $this.slideDown('fast');
+
     }else{ // is mouseleave:
        $this.data( 'timeout', setTimeout(function(){
            $this.slideUp('fast');
-       },2000) );  
+       },2000));  
    }
- });
+ });*/
 
 });
